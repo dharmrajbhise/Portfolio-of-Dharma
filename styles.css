@@ -1,0 +1,232 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f06, #9f6);
+    color: #fff;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #222;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: #f39c12 !important;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-text{
+    font-family: 'Pacifico', cursive;
+}
+
+.big{
+    font-size: 35px;
+}
+
+.py-5 {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 480px;
+}
+
+.rounded-circle {
+    border-radius: 40%;
+}
+
+.profile-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    animation: fadeInScale 1s ease-in-out;
+}
+
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Add animation styles for the About section */
+.about-content {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Add styles for the qualifications section */
+
+.qualification-card {
+    background-color: #35155D;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.qualification-card:hover {
+    transform: translateY(-20px);
+}
+
+.qualification-card i {
+    font-size: 32px;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.qualification-card h4 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.qualification-card p {
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.qualification-card span {
+    color: #3498db;
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.qualificationContent{
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-in-out forwards;
+}
+
+/* Add styles for the interests section */
+#interests {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.interest-card {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(236, 17, 17, 0.5);
+    border-radius: 8px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.interest-card i {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.interest-card h4 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.interest-card:hover {
+    transform: translateY(-30px);
+}
+
+/* Add styles for the skills section */
+.other-card {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #79155B;
+    border-radius: 8px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.other-card i {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.other-card:hover {
+    transform: translateY(-30px);
+}
+
+/* Add styles for the skills section */
+
+.skill-card {
+    text-align: center;
+    padding: 30px;
+    background-color: #00337C;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#skill2{
+    margin-top: 20px;
+}
+
+.skill-card i {
+    font-size: 48px;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.skill-card h4 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.skill-card p {
+    color: #777;
+    margin-bottom: 0;
+}
+
+/* Add styles for the contact section */
+#contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contact-info p {
+    color: #fff;
+    margin: 0;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
