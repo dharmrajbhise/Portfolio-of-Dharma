@@ -104,7 +104,7 @@ section {
 }
 
 .qualification-card:hover {
-    transform: translateY(-20px);
+    transform: translateY(-40px);
 }
 
 .qualification-card i {
@@ -163,7 +163,7 @@ section {
 }
 
 .interest-card:hover {
-    transform: translateY(-30px);
+    transform: translateY(-40px);
 }
 
 /* Add styles for the skills section */
@@ -182,7 +182,7 @@ section {
 }
 
 .other-card:hover {
-    transform: translateY(-30px);
+    transform: translateY(-40px);
 }
 
 /* Add styles for the skills section */
@@ -193,7 +193,7 @@ section {
     background-color: #00337C;
     border-radius: 8px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
 
 #skill2{
